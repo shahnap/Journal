@@ -17,10 +17,10 @@ const handleSubmit = ()=>{
   // .then((response)=>{
     
   // })
-  if(formData.email==='shahna'&&formData.password==='shahna'){
+  if(formData.email==='admin'&&formData.password==='admin'){
     navigate('/pages')
   }else{
-    toast.error('Please Enter Email as shahna And password as shahna')
+    toast.error('Please Enter Email as admin And password as admin')
     console.log("sdcsd",formData.email,formData.password);
     
   }
